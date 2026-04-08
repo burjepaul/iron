@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ChandelierIMG from '../../images/chandelier.png'
-import MasaIMG from '../../images/masa.png'
+import MasaIMG from '../../images/masa.jpg'
 import CandelabruIMG from '../../images/candelabru.png'
-import ScariIMG from '../../images/scari.png'
+import ScariIMG from '../../images/scari.jpg'
 import AccesoriiIMG from '../../images/accesorii.jpg'
 import "./HomePage.css";
 import Button from "../../componetns/button-component/ButtonComponent";
