@@ -1,0 +1,30 @@
+.line-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .line-wrapper .line {
+    flex: 1;
+    border-radius: 2px;
+  }
+  
+  .line-wrapper .line-svg {
+    padding: 0 15px; /* space around the SVG */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Optional: SVG hover or animation */
+  .line-wrapper .line-svg svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--color-title);
+    transition: transform 0.3s ease;
+  }
+  
+  .line-wrapper .line-svg svg:hover {
+    transform: scale(1.2) rotate(15deg);
+  }
